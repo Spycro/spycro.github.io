@@ -10,9 +10,9 @@ layout: default
         </li>
     {% endfor %}
 
-    {% for categories in site.categories %}
+    {% for post in site.categories.ctf %}
         <li>
-            {{ categories }}
+            {{ post.title }}
         </li>
     {% endfor %}
 </ul>
