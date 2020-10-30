@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "About this blog"
+categories: ["ctf"]
 tags: ["first", "second"]
 ---
 This blog is about CTF/security contents writeups.
