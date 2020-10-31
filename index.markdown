@@ -16,3 +16,6 @@ layout: default
         </li>
     {% endfor %}
 </ul>
+
+
+[About this blog]({{ site.url }}/about/)
