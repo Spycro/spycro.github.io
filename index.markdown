@@ -3,13 +3,15 @@ title: Index
 layout: default
 ---
 
-{% for post in site.posts %}    
-- [{{ post.title }}]({{ post.url }}) - *{{ post.date | date: "%-d %B %Y" }}*
+<ul>
+
+{% for post in site.posts %}
+    <li>
+        [{{ post.title }}]({{ post.url }}) - *{{ post.date | date: "%-d %B %Y" }}*
+    </li>
 {% endfor %}
 
+</ul>
 
 
 [About this blog]({{ site.url }}/about/)  
-- test
-- test
-- test
